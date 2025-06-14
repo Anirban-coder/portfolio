@@ -93,9 +93,41 @@ useEffect(() => {
   <div className="max-w-4xl mx-auto">
     <h2 className="text-2xl font-bold mb-6 text-indigo-700">Achievements</h2>
     <ul className="list-disc pl-6 text-lg text-gray-700 dark:text-gray-200">
-      <li>Winner, XYZ Hackathon 2024</li>
-      <li>Certified React Developer</li>
-      {/* Add more achievements here */}
+      <li>
+        <a
+          href="https://www.cloudskillsboost.google/public_profiles/b131287b-f220-4aa3-8b4e-116c192d8b5b/badges/16364840?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-indigo-600 hover:underline"
+        >
+          Google Cloud Skills Boost Badge
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.cloudskillsboost.google/public_profiles/b131287b-f220-4aa3-8b4e-116c192d8b5b/badges/14006295?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-indigo-600 hover:underline"
+        >
+          Preparing For Professional Cloud Journey
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.cloudskillsboost.google/public_profiles/b131287b-f220-4aa3-8b4e-116c192d8b5b/badges/12044636?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-indigo-600 hover:underline"
+        >
+          Google Certifications
+        </a>
+      </li>
+      <li>
+        <a className="text-indigo-600 hover:underline">
+          DSA Certification from Udemy 
+          </a> 
+      </li> 
     </ul>
   </div>
 </section>
@@ -130,7 +162,7 @@ useEffect(() => {
           title: "YoChoice",
           desc: "Interactive visual learning of stacks, queues, and more.",
           github: "https://github.com/Anirban-coder/yochoice.git",
-          demo: "https://your-dsa-demo.com",
+          demo: "https://yochoice-zopf-git-main-anirban-coders-projects.vercel.app",
           image: "/images/yochoice.jpg"
         }
       ].map(({ title, desc, github, demo, image }) => (
