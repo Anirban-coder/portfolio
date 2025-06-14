@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaMoon, FaSun } from "react-icons/fa"
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { GiBrain } from "react-icons/gi";
-import { motion } from "framer-motion";
+
 
 
 export default function App() {
@@ -40,7 +40,7 @@ useEffect(() => {
       </nav>
 
       <main className="pt-24">
-        <motion.section
+        <section
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6 }}
@@ -51,7 +51,7 @@ useEffect(() => {
   <a href="#contact">
     <button className="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full hover:bg-indigo-100 transition">Let’s Connect</button>
   </a>
-</motion.section>
+</section>
 
         {/* About Section */}
         <section id="about" className="bg-white dark:bg-gray-800 py-20 px-6">
@@ -124,9 +124,11 @@ useEffect(() => {
         </a>
       </li>
       <li>
-        <a className="text-indigo-600 hover:underline">
-          DSA Certification from Udemy 
-          </a> 
+        <button className="text-indigo-600 hover:underline">
+  DSA Certification from Udemy 
+</button>
+
+ 
       </li> 
     </ul>
   </div>
@@ -223,10 +225,10 @@ useEffect(() => {
   </div>
 </section>
         {/* Footer */}
-        <footer className="bg-gray-900 dark:bg-black text-white text-center py-4">
+                <footer className="bg-gray-900 dark:bg-black text-white text-center py-4">
           <p>© {new Date().getFullYear()} Anirban Routh. Built with ❤️</p>
         </footer>
       </main>
     </div>
-  );
+  ); 
 }
