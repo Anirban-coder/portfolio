@@ -5,6 +5,11 @@
     "tailwindcss": "^3.4.3"
   },
   "dependencies": {
-    "framer-motion": "^12.18.1"
-  }
+    "framer-motion": "^12.18.1",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+}
 }
