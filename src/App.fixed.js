@@ -229,7 +229,7 @@ export default function Portfolio() {
               <a href="https://github.com/Anirban-coder" target="_blank" rel="noopener noreferrer" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
                 <Github size={24} className="group-hover:text-white" />
               </a>
-              <a href="https://linkedin.com/in/anirban-routh" target="_blank" rel="noopener noreferrer" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
+              <a href="https://www.linkedin.com/in/anirban-routh-77849b324/" target="_blank" rel="noopener noreferrer" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
                 <Linkedin size={24} className="group-hover:text-white" />
               </a>
               <a href="https://leetcode.com/u/Anirban_Routh/" target="_blank" rel="noopener noreferrer" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
@@ -412,13 +412,13 @@ export default function Portfolio() {
                 <a href="https://github.com/Anirban-coder" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <Github size={20} /><span>GitHub</span>
                 </a>
-                <a href="www.linkedin.com/in/anirban-routh-77849b324" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
+                <a href="https://www.linkedin.com/in/anirban-routh-77849b324/" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <Linkedin size={20} /><span>LinkedIn</span>
                 </a>
                 <a href="https://leetcode.com/u/Anirban_Routh/" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <SiLeetcode size={20} /><span>LeetCode</span>
                 </a>
-                <a href="mailto:anirbanrouth22@gmail.com" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
+                <a href="mailto: anirbanrouth22@gmail.com" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <Mail size={20} /><span>Email</span>
                 </a>
               </div>
