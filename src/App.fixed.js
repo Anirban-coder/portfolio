@@ -412,10 +412,10 @@ export default function Portfolio() {
                 <a href="https://github.com/Anirban-coder" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <Github size={20} /><span>GitHub</span>
                 </a>
-                <a href="https://linkedin.com/in/anirban-routh" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
+                <a href="www.linkedin.com/in/anirban-routh-77849b324" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <Linkedin size={20} /><span>LinkedIn</span>
                 </a>
-                <a href="https://leetcode.com/u/anirbanrouth22/" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
+                <a href="https://leetcode.com/u/Anirban_Routh/" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
                   <SiLeetcode size={20} /><span>LeetCode</span>
                 </a>
                 <a href="mailto:anirbanrouth22@gmail.com" className={`flex items-center gap-2 ${darkMode ? 'text-gray-300 hover:text-cyan-400' : 'text-gray-700 hover:text-purple-600'} transition-colors`}>
