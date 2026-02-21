@@ -235,7 +235,7 @@ export default function Portfolio() {
               <a href="https://leetcode.com/u/Anirban_Routh/" target="_blank" rel="noopener noreferrer" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
                 <SiLeetcode size={24} className="group-hover:text-white" />
               </a>
-              <a href="mailto:anirbanrouth22@gmail.com" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
+              <a href="mailto:anirbanrouth22@gmail.com" target="_blank" className={`p-3 ${darkMode ? 'bg-slate-800' : 'bg-white'} rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all transform hover:scale-110 shadow-lg group`}>
                 <Mail size={24} className="group-hover:text-white" />
               </a>
             </div>
@@ -245,7 +245,7 @@ export default function Portfolio() {
               <button onClick={() => scrollToSection('projects')} className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
                 <span className="flex items-center justify-center">View Projects <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 transition-transform" /></span>
               </button>
-              <a href="/resume.pdf" download="Anirban_Routh_Resume.pdf" className={`group px-8 py-4 ${darkMode ? 'bg-slate-800 hover:bg-slate-700' : 'bg-white hover:bg-gray-50'} rounded-full font-semibold shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center`}>
+              <a href="" download="Anirban Routh_Resume.pdf" className={`group px-8 py-4 ${darkMode ? 'bg-slate-800 hover:bg-slate-700' : 'bg-white hover:bg-gray-50'} rounded-full font-semibold shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center`}>
                 Download Resume <FileText size={16} className="ml-2" />
               </a>
             </div>
