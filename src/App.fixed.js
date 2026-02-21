@@ -245,7 +245,7 @@ export default function Portfolio() {
               <button onClick={() => scrollToSection('projects')} className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white shadow-lg hover:shadow-2xl transition-all transform hover:scale-105">
                 <span className="flex items-center justify-center">View Projects <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 transition-transform" /></span>
               </button>
-              <a href="" download="Anirban Routh_Resume.pdf" className={`group px-8 py-4 ${darkMode ? 'bg-slate-800 hover:bg-slate-700' : 'bg-white hover:bg-gray-50'} rounded-full font-semibold shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center`}>
+              <a href="" download="AnirbanRouth_Resume.pdf" className={`group px-8 py-4 ${darkMode ? 'bg-slate-800 hover:bg-slate-700' : 'bg-white hover:bg-gray-50'} rounded-full font-semibold shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center`}>
                 Download Resume <FileText size={16} className="ml-2" />
               </a>
             </div>
